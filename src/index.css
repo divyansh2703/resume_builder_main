@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.personal-header {
+  display: flex;
+  flex-direction: row;
+}
+
+.personal-header p {
+  margin-right: 28px;
+  font-size: 14px;
+}
+
+.education,
+.workEx {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-right: 50px;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.skillsCont {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skillsCont p {
+  margin-right: 100px;
+}
+
+.pdf-resume p {
+  font-size: 14px;
+}
+
+.pdf-resume h2 {
+  font-size: 20px;
+  margin: 10px 0px;
+}
+
+.heading {
+  border-bottom: 1px solid black;
+}
+
+/* ADD BUTTON  */
+.add {
+    letter-spacing: 0.5px;
+    background: #000;
+    border: 0;
+    color: green;
+    text-transform: uppercase;
+    font-family: helvetica;
+    font-size: 12px;
+}
+
+.add:hover {
+    cursor: pointer;
+    background-color: white;
+    border: 2px solid black;
+    transition-duration: 1s;
+}
+
+/* DOWNLOAD BUTTON Similar to Submit btn */
+.download {
+    width: auto;
+    background: #000;
+    border: 0;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: helvetica;
+    font-size: 12px;
+    letter-spacing: 3px;
+}
+
+/* REMOVE BUTTON  */
+.remove {
+    letter-spacing: 0.5px;
+    padding: 15px 40px;
+    background: #000;
+    border: 0;
+    color: red;
+    text-transform: uppercase;
+    font-family: helvetica;
+    font-size: 12px;
+}
+
+.remove:hover {
+    cursor: pointer;
+    background-color: white;
+    border: 2px solid black;
+    transition-duration: 1s;
+}
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container form {
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.container form input,
+.container form input:focus,
+button {
+  border: none;
+  border-bottom: 2px solid black;
+  width: 400px;
+  height: 50px;
+  margin: 15px 0px;
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+  outline: none;
+}
+
+button {
+    border: 2px solid black;
+    width: 200px;
+    margin: auto;
+    margin-top: 2px;
+}
+
+/* SUBMIT BUTTON*/
+
+.submit-btn {
+    padding: 15px 40px;
+    background: #000;
+    border: 0;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: helvetica;
+    font-size: 12px;
+    letter-spacing: 3px;
+    transition: all .4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    cursor: pointer;
+    margin: 100px auto;
+}
+
+.submit-btn:hover {
+    transition-duration: 1s;
+    width: 200px;
+  
+}
+
+.container form input,
+.container form input:focus {
+  width: 100%;
+  /* max-width: 100%; */
+}
+
+@media screen and (min-width: 500px) {
+  .container form input,
+  .container form input:focus {
+    width: 400px;
+    /* max-width: 100%; */
+  }
+}
+
+
+.container form input,
+.container form input:focus {
+  width: 100%;
+  /* max-width: 100%; */
+}
+
+@media screen and (min-width: 500px) {
+  .container form input,
+  .container form input:focus {
+    width: 400px;
+    /* max-width: 100%; */
+  }
+}
